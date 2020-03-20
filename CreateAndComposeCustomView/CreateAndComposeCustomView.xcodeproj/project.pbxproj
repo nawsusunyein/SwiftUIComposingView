@@ -21,6 +21,7 @@
 		23D5AAAA24247BB0000412C0 /* UserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D5AAA924247BB0000412C0 /* UserDetailsView.swift */; };
 		23D5AAAC24247CAB000412C0 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D5AAAB24247CAB000412C0 /* UserListView.swift */; };
 		23D5AAAE242485B3000412C0 /* CombineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D5AAAD242485B3000412C0 /* CombineView.swift */; };
+		23D5AAB0242487F4000412C0 /* ViewAsProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D5AAAF242487F4000412C0 /* ViewAsProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		23D5AAA924247BB0000412C0 /* UserDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsView.swift; sourceTree = "<group>"; };
 		23D5AAAB24247CAB000412C0 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
 		23D5AAAD242485B3000412C0 /* CombineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineView.swift; sourceTree = "<group>"; };
+		23D5AAAF242487F4000412C0 /* ViewAsProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAsProperties.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				23D5AAA924247BB0000412C0 /* UserDetailsView.swift */,
 				23D5AAAB24247CAB000412C0 /* UserListView.swift */,
 				23D5AAAD242485B3000412C0 /* CombineView.swift */,
+				23D5AAAF242487F4000412C0 /* ViewAsProperties.swift */,
 			);
 			path = CreateAndComposeCustomView;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 				23D5AAA6242478F6000412C0 /* ProfileImageView.swift in Sources */,
 				23D5AA76242477ED000412C0 /* SceneDelegate.swift in Sources */,
 				23D5AA78242477ED000412C0 /* ContentView.swift in Sources */,
+				23D5AAB0242487F4000412C0 /* ViewAsProperties.swift in Sources */,
 				23D5AAA824247B1A000412C0 /* AddressView.swift in Sources */,
 				23D5AAAE242485B3000412C0 /* CombineView.swift in Sources */,
 			);
