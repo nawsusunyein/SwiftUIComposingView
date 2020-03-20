@@ -9,12 +9,19 @@
 import SwiftUI
 
 struct ContentView: View {
-    let componentsList = ["Create And Compose Custom View"]
+    let componentsList = ["Create And Compose Custom View","Combine View"]
     var body: some View {
         NavigationView{
             List{
                 NavigationLink(destination:UserListView()){
                     Text(componentsList[0])
+                        .padding()
+                        .background(Color.green)
+                        .foregroundColor(Color.yellow)
+                        .cornerRadius(30)
+                }
+                NavigationLink(destination:CombineView()){
+                    Text(componentsList[1])
                         .padding()
                         .background(Color.green)
                         .foregroundColor(Color.yellow)
