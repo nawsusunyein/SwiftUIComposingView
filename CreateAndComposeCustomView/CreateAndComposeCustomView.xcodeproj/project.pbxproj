@@ -15,6 +15,11 @@
 		23D5AA802424781A000412C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23D5AA7E2424781A000412C0 /* LaunchScreen.storyboard */; };
 		23D5AA8B2424781A000412C0 /* CreateAndComposeCustomViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D5AA8A2424781A000412C0 /* CreateAndComposeCustomViewTests.swift */; };
 		23D5AA962424781A000412C0 /* CreateAndComposeCustomViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D5AA952424781A000412C0 /* CreateAndComposeCustomViewUITests.swift */; };
+		23D5AAA42424787F000412C0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D5AAA32424787F000412C0 /* User.swift */; };
+		23D5AAA6242478F6000412C0 /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D5AAA5242478F6000412C0 /* ProfileImageView.swift */; };
+		23D5AAA824247B1A000412C0 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D5AAA724247B1A000412C0 /* AddressView.swift */; };
+		23D5AAAA24247BB0000412C0 /* UserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D5AAA924247BB0000412C0 /* UserDetailsView.swift */; };
+		23D5AAAC24247CAB000412C0 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D5AAAB24247CAB000412C0 /* UserListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		23D5AA912424781A000412C0 /* CreateAndComposeCustomViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreateAndComposeCustomViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23D5AA952424781A000412C0 /* CreateAndComposeCustomViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAndComposeCustomViewUITests.swift; sourceTree = "<group>"; };
 		23D5AA972424781B000412C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23D5AAA32424787F000412C0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		23D5AAA5242478F6000412C0 /* ProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
+		23D5AAA724247B1A000412C0 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		23D5AAA924247BB0000412C0 /* UserDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsView.swift; sourceTree = "<group>"; };
+		23D5AAAB24247CAB000412C0 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,11 @@
 				23D5AA7E2424781A000412C0 /* LaunchScreen.storyboard */,
 				23D5AA812424781A000412C0 /* Info.plist */,
 				23D5AA7B24247819000412C0 /* Preview Content */,
+				23D5AAA32424787F000412C0 /* User.swift */,
+				23D5AAA5242478F6000412C0 /* ProfileImageView.swift */,
+				23D5AAA724247B1A000412C0 /* AddressView.swift */,
+				23D5AAA924247BB0000412C0 /* UserDetailsView.swift */,
+				23D5AAAB24247CAB000412C0 /* UserListView.swift */,
 			);
 			path = CreateAndComposeCustomView;
 			sourceTree = "<group>";
@@ -267,9 +282,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23D5AAAA24247BB0000412C0 /* UserDetailsView.swift in Sources */,
+				23D5AAA42424787F000412C0 /* User.swift in Sources */,
 				23D5AA74242477ED000412C0 /* AppDelegate.swift in Sources */,
+				23D5AAAC24247CAB000412C0 /* UserListView.swift in Sources */,
+				23D5AAA6242478F6000412C0 /* ProfileImageView.swift in Sources */,
 				23D5AA76242477ED000412C0 /* SceneDelegate.swift in Sources */,
 				23D5AA78242477ED000412C0 /* ContentView.swift in Sources */,
+				23D5AAA824247B1A000412C0 /* AddressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
