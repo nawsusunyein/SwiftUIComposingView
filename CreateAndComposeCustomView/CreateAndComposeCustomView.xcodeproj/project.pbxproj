@@ -22,6 +22,7 @@
 		23D5AAAC24247CAB000412C0 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D5AAAB24247CAB000412C0 /* UserListView.swift */; };
 		23D5AAAE242485B3000412C0 /* CombineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D5AAAD242485B3000412C0 /* CombineView.swift */; };
 		23D5AAB0242487F4000412C0 /* ViewAsProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D5AAAF242487F4000412C0 /* ViewAsProperties.swift */; };
+		23D5AAB2242489B9000412C0 /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D5AAB1242489B9000412C0 /* CustomModifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		23D5AAAB24247CAB000412C0 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
 		23D5AAAD242485B3000412C0 /* CombineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineView.swift; sourceTree = "<group>"; };
 		23D5AAAF242487F4000412C0 /* ViewAsProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAsProperties.swift; sourceTree = "<group>"; };
+		23D5AAB1242489B9000412C0 /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				23D5AAAB24247CAB000412C0 /* UserListView.swift */,
 				23D5AAAD242485B3000412C0 /* CombineView.swift */,
 				23D5AAAF242487F4000412C0 /* ViewAsProperties.swift */,
+				23D5AAB1242489B9000412C0 /* CustomModifiers.swift */,
 			);
 			path = CreateAndComposeCustomView;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				23D5AA78242477ED000412C0 /* ContentView.swift in Sources */,
 				23D5AAB0242487F4000412C0 /* ViewAsProperties.swift in Sources */,
 				23D5AAA824247B1A000412C0 /* AddressView.swift in Sources */,
+				23D5AAB2242489B9000412C0 /* CustomModifiers.swift in Sources */,
 				23D5AAAE242485B3000412C0 /* CombineView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

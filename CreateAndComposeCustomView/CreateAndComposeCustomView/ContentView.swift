@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    let componentsList = ["Create And Compose Custom View","Combine View","View as properties"]
+    let componentsList = ["Create And Compose Custom View","Combine View","View as properties","Custom Modifiers"]
     
     var body: some View {
         NavigationView{
@@ -30,6 +30,13 @@ struct ContentView: View {
                 }
                 NavigationLink(destination:ViewAsProperties()){
                     Text(componentsList[2])
+                        .padding()
+                        .background(Color.green)
+                        .foregroundColor(Color.yellow)
+                        .cornerRadius(30)
+                }
+                NavigationLink(destination:CustomModifiers()){
+                    Text(componentsList[3])
                         .padding()
                         .background(Color.green)
                         .foregroundColor(Color.yellow)
